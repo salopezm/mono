@@ -6,7 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     container:
-      image: johncortes/mono
+      image: salopezm/mono
 
     steps:
       - name: Checkout project
